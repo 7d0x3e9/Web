@@ -1,0 +1,183 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>reminiscence 2021</title>
+<style type="text/css">
+@font-face {
+    font-family: 'KyoboHandwriting2020A';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2112@1.0/KyoboHandwriting2020A.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+h1,h2,h3,h4,h5,h6,p {
+    font-family: "KyoboHandwriting2020A";
+}
+a {
+    font-family: "KyoboHandwriting2020A";
+}
+h1 {
+    font-size: xx-large;
+	text-align: center;
+}
+h2 {
+    font-size: xx-large;
+	margin-bottom: 10px;
+}
+.profile {
+    float: left;
+    margin-right: 20px;
+}
+	.textbox {
+	padding: 0px;
+	height: 100px;
+	width: 1000px;
+	margin-top:50px;
+	margin-right: 0px;
+	margin-bottom: 20px;
+	margin-left: 0px;
+}
+#center {
+	padding: 20px;
+	width: 880px;
+	height: 400px;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-left: auto;
+}
+	/*로고 기본설정*/
+	.diary{
+		text-align: center;
+		margin-top:40px;
+	}
+	/*메뉴태그 기본 설정*/
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	ul li{
+		list-style: none;
+	}
+	a {
+		text-decoration: none;
+		color:#333;
+	}
+/*메뉴 태그 디자인 설정*/
+	#menu {
+		font:bold 16px "KyoboHandwriting2020A";
+		width:420px;
+		height:50px;
+		color:black;
+		line-height: 50px; 
+		margin:0 auto;
+		margin-top:20px;
+		text-align: center;
+	}
+/*메뉴 태그의 자식 태그 디자인 설정*/
+	#menu > ul > li {
+		float:left;
+		width:140px;
+		position:relative;
+	}
+	#menu > ul > li > ul {
+		width:130px;
+		display:none;
+		position: absolute;
+		font-size:14px;
+		background: #CECECE;
+		font-style: italic;
+	}
+	#menu > ul > li:hover > ul {
+		display:block;
+	}
+	#menu > ul > li > ul > li:hover {
+		background-color:rgba(116,116,116,0.66);
+		transition: ease 0.3s;
+		}
+	/*submit 기본 설정*/
+	.submit{
+		text-align:center;
+	}
+	/*submit 버튼 디자인 설정*/
+	.button{
+		 margin-bottom: 200px;
+		font-family:"KyoboHandwriting2020A";
+		border:0;
+		outline:0;
+		color:dimgrey;
+		text-decoration:underline;
+		text-underline-position: under;
+		font-size:1em;
+		background-color:#FFFFFF;
+	}
+	/*메세지박스 디자인 설정*/
+	.messagebox
+	{
+		text-align: center;
+	}
+	.cheerbox
+	{
+		font-family:"KyoboHandwriting2020A";
+		font-size:1em;
+		margin-top:30px;
+		margin-left: 50px; 
+		margin-bottom:10px; 
+		width:800px; 
+		height: 100px;
+		padding-left:30px;
+	}
+	/*카피라이트 디자인 설정*/
+	.copyright{
+		text-align:center;
+		color:slategray;
+		font-size:small;
+		margin-bottom: 50px;
+	}
+</style>
+</head>
+<body>
+	<div class="diary"><img src="diary.png" width="120" height="115" alt="" a href="index.html"/>
+	</div>
+	<div id="menu">
+	<ul>
+		<li><a href="">university</a>
+			<ul>
+				<li><a href="university_study.html">study</a></li>
+				<li><a href="university_activity.html">activity</a></li>
+			</ul>
+		</li>
+		<li><a href="#">leisure</a>
+			<ul>
+				<li><a href="leisure_record.html">record</a></li>
+				<li><a href="leisure_game.html">online game</a></li>
+			</ul>
+		</li>
+		<li><a>social</a>
+			<ul>
+				<li><a href="http://blog.naver.com/zzieyh">blog</a></li>
+				<li><a href="https://www.instagram.com/zzieyh/?hl=ko">instargram</a></li>
+			</ul>
+		</li>
+		</ul>
+	</div>
+<a></a>
+&nbsp;&nbsp;
+<div id="center">
+<div class="textbox">
+    <div class="profile"><img src="profile.gif" width="300" height="200" alt="" style="margin-left:30px"/></div>
+  <h2>JIHYE PARK</h2>
+  <p>
+	  If you want the present to be different from the past, study the past.<br><em>- Baruch Spinoza</em></p>
+	&nbsp;
+	<p style="margin-top: 40px">#<br>2021, my memory, my reminiscence.</p>
+</div>
+</div>
+<h2 style="text-align: center;">CHEER ME UP!</h2>
+<p style="text-align:center;">2021년의 끝자락, 응원의 메세지를 적어주세요!</p>
+<div class="messagebox"><input type="text" class="cheerbox"></div>
+<div class="submit">
+	<button type="button" class="button" onClick="window.location.reload() ">submit</button>
+</div>
+<p class="copyright">ⓒ 2021. zzieyh All Rights Reserved.</p>
+</body>
+</html>
