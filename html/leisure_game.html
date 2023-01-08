@@ -1,0 +1,153 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>reminiscence 2021</title>
+<style type="text/css">
+	@font-face {
+    font-family: 'KyoboHandwriting2020A';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2112@1.0/KyoboHandwriting2020A.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+	h1,h2,h3,h4,h5,h6,p,tr {
+    font-family: "KyoboHandwriting2020A";
+}
+	a {
+    font-family: "KyoboHandwriting2020A";
+}
+	h1 {
+    font-size: xx-large;
+	text-align: center;
+}
+	h2 {
+    font-size: xx-large;
+	margin-bottom: 10px;
+}
+	h3 {
+    margin-bottom: 10px;
+    text-align: left;
+}
+	#center {
+	padding: 20px;
+	width: 900px;
+	height:auto;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+}
+	/*로고 기본설정*/
+	.diary{
+		text-align: center;
+		margin-top:40px;
+	}
+	/*메뉴태그 기본 설정*/
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	ul li{
+		list-style: none;
+	}
+	a {
+		text-decoration: none;
+		color:#333;
+	}
+/*메뉴 태그 디자인 설정*/
+	#menu {
+		font:bold 16px "KyoboHandwriting2020A";
+		width:420px;
+		height:50px;
+		color:black;
+		line-height: 50px; 
+		margin:0 auto;
+		margin-top:20px;
+		text-align: center;
+	}
+/*메뉴 태그의 자식 태그 디자인 설정*/
+	#menu > ul > li {
+		float:left;
+		width:140px;
+		position:relative;
+	}
+	#menu > ul > li > ul {
+		width:130px;
+		display:none;
+		position: absolute;
+		font-size:14px;
+		background: #CECECE;
+		font-style: italic;
+	}
+	#menu > ul > li:hover > ul {
+		display:block;
+	}
+	#menu > ul > li > ul > li:hover {
+		background-color:rgba(116,116,116,0.66);
+		transition: ease 0.3s;
+		}
+	/*카피라이트 디자인 설정*/
+	.copyright{
+		text-align:center;
+		color:slategray;
+		font-size:small;
+		margin-bottom: 50px;
+		margin-top: 150px;
+	}
+/*이미지 설정*/
+	.image{
+		text-align: center;
+	}
+</style>
+</head>
+<body>
+<div class="diary"><a href="index.html"><img src="diary.png" width="120" height="115" alt=""/></a>
+</div>
+	<div id="menu">
+	<ul>
+		<li><a href="">university</a>
+			<ul>
+				<li><a href="university_study.html">study</a></li>
+				<li><a href="university_activity.html">activity</a></li>
+			</ul>
+		</li>
+		<li><a href="#">leisure</a>
+			<ul>
+				<li><a href="leisure_record.html">record</a></li>
+				<li><a href="leisure_game.html">online game</a></li>
+			</ul>
+		</li>
+		<li><a>social</a>
+			<ul>
+				<li><a href="http://blog.naver.com/zzieyh">blog</a></li>
+				<li><a href="https://www.instagram.com/zzieyh/?hl=ko">instargram</a></li>
+			</ul>
+		</li>
+	  </ul>
+	</div>
+	<div id="center">
+		<div class="image">
+		<a href="https://maplestory.nexon.com/Home/Main" style="color:orangered"><img alt="" src="maplestory.png"  />
+			</a>
+		</div>
+	  <div class="image">
+	<table style="margin-right:10px;">
+  <tr>
+    <img alt="" src="maple1.gif" width="500" />
+	<img alt="" src="maple2.png" width="500" />
+	  <img alt="" src="maple3.gif" width="500" />
+  </tr>
+</table>
+</div>
+	<div class="image" style="margin-top: 150px">
+		<a href="https://playoverwatch.com/ko-kr/"><img alt="" src="overwatch.png"  width="317" style="margin-bottom: 30px"/>
+		</a>
+		</div>
+	<div style="text-align: center;">
+      <video width="500" src="overwatch.mp4" controls="controls" > 이 브라우저에서 지원하지 않는 영상입니다. </video>
+		<video width="500" style="margin-top:10px;" src="overwatch2.mp4" controls="controls" > 이 브라우저에서 지원하지 않는 영상입니다. </video>
+		</div>
+</div>
+<p class="copyright">ⓒ 2021. zzieyh All Rights Reserved.</p>
+</body>
+</html>
