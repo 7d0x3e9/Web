@@ -1,0 +1,241 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>reminiscence 2021</title>
+<style type="text/css">
+	@font-face {
+    font-family: 'KyoboHandwriting2020A';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2112@1.0/KyoboHandwriting2020A.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+	h1,h2,h3,h4,h5,h6,p,tr {
+    font-family: "KyoboHandwriting2020A";
+}
+	a {
+    font-family: "KyoboHandwriting2020A";
+}
+	h1 {
+    font-size: xx-large;
+	text-align: center;
+}
+	h2 {
+    font-size: xx-large;
+	margin-bottom: 10px;
+}
+	h3 {margin-bottom: 10px;}
+	#center {
+	padding: 20px;
+	width: 880px;
+	height:auto;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+}
+	/*로고 기본설정*/
+	.diary{
+		text-align: center;
+		margin-top:40px;
+	}
+	/*메뉴태그 기본 설정*/
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	ul li{
+		list-style: none;
+	}
+	a {
+		text-decoration: none;
+		color:#333;
+	}
+/*메뉴 태그 디자인 설정*/
+	#menu {
+		font:bold 16px "KyoboHandwriting2020A";
+		width:420px;
+		height:50px;
+		color:black;
+		line-height: 50px; 
+		margin:0 auto;
+		margin-top:20px;
+		text-align: center;
+	}
+/*메뉴 태그의 자식 태그 디자인 설정*/
+	#menu > ul > li {
+		float:left;
+		width:140px;
+		position:relative;
+	}
+	#menu > ul > li > ul {
+		width:130px;
+		display:none;
+		position: absolute;
+		font-size:14px;
+		background: #CECECE;
+		font-style: italic;
+	}
+	#menu > ul > li:hover > ul {
+		display:block;
+	}
+	#menu > ul > li > ul > li:hover {
+		background-color:rgba(116,116,116,0.66);
+		transition: ease 0.3s;
+		}
+	/*카피라이트 디자인 설정*/
+	.copyright{
+		text-align:center;
+		color:slategray;
+		font-size:small;
+		margin-bottom: 50px;
+	}
+	/*1학기 문단*/
+	.table1{
+		margin-left: 30px;
+		margin-top:80px;
+		margin-bottom: 30px;
+	}
+	#box{
+		margin-top:80px;
+		margin-left:300px;
+		 font-family: "KyoboHandwriting2020A";
+		margin-bottom: 30px;
+	}
+	/*2학기 문단*/
+	#box2{
+		margin-top:80px;
+		margin-left:300px;
+		font-family: "KyoboHandwriting2020A";
+		margin-bottom:140px;
+	}
+	.table2{
+		float:right;
+		margin-right:30px;
+		margin-top:60px;
+	}
+	/*롤오버 이미지 설정*/
+	.image
+	{
+		text-align:center;
+		margin-top: 40px;
+	}
+</style>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+<body onLoad="MM_preloadImages('python.png','windows.png')">
+<div class="diary"><a href="index.html"><img src="diary.png" width="120" height="115" alt=""/></a>
+</div>
+	<div id="menu">
+	<ul>
+		<li><a href="#">university</a>
+			<ul>
+				<li><a href="university_study.html">study</a></li>
+				<li><a href="university_activity.html">activity</a></li>
+			</ul>
+		</li>
+		<li><a href="#">leisure</a>
+			<ul>
+				<li><a href="leisure_record.html">record</a></li>
+				<li><a href="leisure_game.html">online game</a></li>
+			</ul>
+		</li>
+		<li><a>social</a>
+			<ul>
+				<li><a href="http://blog.naver.com/zzieyh">blog</a></li>
+				<li><a href="https://www.instagram.com/zzieyh/?hl=ko">instargram</a></li>
+			</ul>
+		</li>
+	  </ul>
+	</div>
+	<div id="center">
+	  <div style="float: left;">
+	<table border="1" class="table1" width="250px">
+		<tr>
+			<th colspan="2">2021년 1학기 수강과목</th>
+		</tr>
+		<tr>
+			<th rowspan="4">전공 과목</th>
+			<td>컴퓨터및정보보호개론</td>
+		</tr>
+		<tr><td>C프로그래밍</td></tr>
+		<tr><td>전공진로탐색세미나I</td></tr>
+		<tr><td>소프트웨어개발실무영어I</td></tr>
+		<tr>
+			<th rowspan="4">교양 과목</th>
+			<td>대학고급영어(듣기말하기)</td>
+		</tr>
+		<tr><td>데이터분석기초실습</td></tr>
+		<tr><td>소프트웨어와창의적사고</td></tr>
+		<tr><td>경건회</td></tr>
+	</table>
+	  </div>
+	<div id="box">
+		<h3>1학기</h3>
+		<p> 2021년에 서울여자대학교 정보보호학과에 입학했다. 새로운 학교, 새로운 사람, 새로운 전공을 만나 설렜던 나날이었다. 1학기 시작 전에 필수 교양이었던 대학영어(듣기말하기) 분반 수업을 위해 사전 시험을 보라는 안내가 있었지만, 다행히 토익 성적으로도 대체가 가능했기에 2020년 초에 봤던 토익 성적을 서류로 제출하고 무사히 수업을 들을 수 있었다. 그 밖에도 정보보호학과의 기본적인 커리큘럼을 알 수 있는 전공진로탐색세미나와 다양한 전공과목들, 그리고 내가 직접 선택한 교양 수업인 데이터분석기초실습 강의를 통해 엑셀에 대한 기초, 심화 과정을 배웠다. C프로그래밍과 소프트웨어와창의적사고는 다양한 실습 위주로 했는데, C프로그래밍 기말 프로젝트였던 '도서 관리 프로그램'과 소프트웨어와창의적사고 팀프로젝트였던 '풀어봐요, 계산의 숲!' 을 통해 내가 직접 프로그램을 만들었다는 것에 굉장한 뿌듯함을 느꼈다.  </p>
+	  </div>
+	<div class="image">
+		<table width="600" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+	  </table>
+		<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image2','','python.png',1)"><img src="c.png" alt="" width="400" height="250" id="Image2"></a>
+	  <table width="1200" border="0" cellspacing="0" cellpadding="0">
+		<tr>
+    	<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image3','','windows.png',1)"><img src="windows1.png" alt="" width="400" height="250" id="Image3"></a>
+ 	 </tr>	
+	</table>
+		</div>
+		 <div style="float: left;">
+	<table border="1" class="table1" width="250px">
+		<tr>
+			<th colspan="2">2021년 2학기 수강과목</th>
+		</tr>
+		<tr>
+			<th rowspan="4">전공 과목</th>
+			<td>윈도우즈보안과운영실습</td>
+		</tr>
+		<tr><td>리눅스프로그래밍</td></tr>
+		<tr><td>C++프로그래밍</td></tr>
+		<tr><td>현대암호학기초</td></tr>
+		<tr>
+			<th rowspan="4">교양 과목</th>
+			<td>웹페이지저작기초</td>
+		</tr>
+		<tr><td>기초중국어I</td></tr>
+		<tr><td>경건회</td></tr>
+		<tr><td>기독교개론</td></tr>
+	</table>
+	  </div>
+	
+	<div id="box2">
+		<h3>2학기</h3>
+		<p> 여름방학을 즐기고, 새로운 학기가 시작되었다. 비록 원하던 수강신청 시간은 잡지 못했지만, 듣고 싶었던 수업은 모두 신청했기에 만족한 시간표였다. 특히, 이번 학기에는 직전학기와는 다르게 최대 21학점까지 이수가 가능해서 21학점을 모두 채우기 위해 노력했다. 이산수학을 제외한 모든 전공과목을 다 듣고, 교양 프로그램 또한 듣고 싶었던 기초중국어 과목과 웹페이지저작기초 과목을 수강하게 되었다. 이번 학기에는 유난히 전공과목과 교양과목 모두 과제가 넘쳐나서 학기 중에 동기 친구와 함께 진짜 본격적으로 대학교에 다니는 것 같다고 너스레까지 떨었다. 윈도우즈보안과운영실습 과목의 경우에는 매주 실습과 보고서 제출 과제가 있어 유난히 힘들었지만, 힘들었던 만큼 기억에도 많이 남는 수업이 된 것 같다. 또한, 웹페이지저작기초 교양 수업의 하이라이트라고 할 수 있는 기말 프로젝트로 한 학기 동안 배운 모든 지식들을 한번에 활용할 수 있었다. </p>
+	  </div>
+	</div>
+<p class="copyright">ⓒ 2021. zzieyh All Rights Reserved.</p>
+</body>
+</html>
